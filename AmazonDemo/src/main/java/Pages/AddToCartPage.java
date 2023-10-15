@@ -35,11 +35,11 @@ public class AddToCartPage {
 			}
 			
 			public void clickOnCartButton() {
-				cartButton.click();
+				caButton.click();
 			}
 			
 			public void clickOnQuantitybutton() {
-				quantitybutton.click();
+				clickqubutton.click();
 			}
 			
 			public void clickOnProceedToBuyButton() {
