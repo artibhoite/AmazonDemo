@@ -57,7 +57,7 @@ public class VerifyMobileModulePage {
      
     @AfterClass
     public void closeBrowser() {
-   	 driver.quit();
+   	 driver.close();
   	 }  
 
    
