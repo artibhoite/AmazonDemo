@@ -21,11 +21,12 @@ public class VerifyMobileModulePage {
 	private WebDriver driver;
 	 @BeforeClass
 	 public void launchBrowser() {
-		   System.setProperty("webdriver.gecko.driver","D:\\Automation\\chromedriver-win32\\chromedriver.exe");
+		   System.setProperty("webdriver.Opera.driver","D:\\Automation\\chromedriver-win32\\chromedriver.exe");
 			
-			geckoOptions options = new geckoOptions();
+			OperaOptions options = new OperaOptions();
 			options.addArguments("--remote-allow-origins=*");
-		    driver = new geckoDriver(options);
+		    driver = new OperaDriver(options);
+
 	 }
 	 
     @BeforeMethod
