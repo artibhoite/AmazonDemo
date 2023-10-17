@@ -26,6 +26,7 @@ public class VerifyMobileModulePage {
 			OperaOptions options = new OperaOptions();
 			options.addArguments("--remote-allow-origins=*");
 		    driver = new OperaDriver(options);
+
 	 }
 	 
     @BeforeMethod
