@@ -21,11 +21,11 @@ public class VerifyMobileModulePage {
 	private WebDriver driver;
 	 @BeforeClass
 	 public void launchBrowser() {
-		   System.setProperty("webdriver.chrome.driver","D:\\Automation\\chromedriver-win32\\chromedriver.exe");
+		   System.setProperty("webdriver.Opera.driver","D:\\Automation\\chromedriver-win32\\chromedriver.exe");
 			
-			ChromeOptions options = new ChromeOptions();
+			OperaOptions options = new OperaOptions();
 			options.addArguments("--remote-allow-origins=*");
-		    driver = new ChromeDriver(options);
+		    driver = new OperaDriver(options);
 	 }
 	 
     @BeforeMethod
